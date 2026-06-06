@@ -74,17 +74,17 @@ O fluxo de dados do sistema segue uma arquitetura linear de processamento em lot
 ## Estrutura do Projeto   
 
 futebol_ia/
-├── input_videos/                  # Ficheiros de vídeo brutos (.mp4)
-├── output_videos/                 # Vídeos processados com anotações HUD
-├── models/                        # Modelos PyTorch do YOLO (best.pt)
-├── stubs/                         # Ficheiros Pickle (.pkl) de cache
-├── trackers/                      # Deteção, tracking e renderização
-│   └── tracker.py
-├── main.py                        # Orquestrador do Pipeline
-├── tactical_analyst.py            # Módulo LangChain -> Ollama
-├── camera_movement_estimator.py   # Lógica de estabilização de cena
-├── view_transformer.py            # Matriz de conversão Perspetiva/Metros
-├── speed_and_distance_estimator.py # Motor de física (Velocidade e Distância)
-├── team_assigner.py               # Machine Learning (K-Means) para cores
-├── player_ball_assigner.py        # Algoritmo de atribuição de posse
-└── utils.py                       # Helpers (centros geométricos, medições)
+* ├── input_videos/                  # Ficheiros de vídeo brutos (.mp4)
+* ├── output_videos/                 # Vídeos processados com anotações HUD
+* ├── models/                        # Modelos PyTorch do YOLO (best.pt)
+* ├── stubs/                         # Ficheiros Pickle (.pkl) de cache
+* ├── trackers/                      # Deteção, tracking e renderização
+* │   └── tracker.py
+* ├── main.py                        # Orquestrador do Pipeline
+* ├── tactical_analyst.py            # Módulo LangChain -> Ollama
+* ├── camera_movement_estimator.py   # Lógica de estabilização de cena
+* ├── view_transformer.py            # Matriz de conversão Perspetiva/Metros
+* ├── speed_and_distance_estimator.py # Motor de física (Velocidade e Distância)
+* ├── team_assigner.py               # Machine Learning (K-Means) para cores
+* ├── player_ball_assigner.py        # Algoritmo de atribuição de posse
+* └── utils.py                       # Helpers (centros geométricos, medições)
